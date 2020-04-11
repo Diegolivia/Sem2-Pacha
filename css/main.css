@@ -12,7 +12,12 @@ section {
     height: 424px;
     color: white;
 }
-/*===========primer bloque==============*/
+figure {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+/*=========== BIENVENIDA ==============*/
 #welcome {
     background-color: white;
 }
@@ -33,7 +38,7 @@ section {
     font-size: 25px;
   }
 
-  /*===========segundo bloque==============*/
+  /*=========== SOBRE MI ==============*/
 #about{
     background-color: #7299FE;
 }
@@ -70,19 +75,26 @@ line-height: 24px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
   }
- /*=========== TERCER bloque==============*/
+ /*=========== CONTACTO ==============*/
 #contact {
     background-color: #1687A0;
 }
-
+ /*=========== SKILLS ==============*/
 #skills {
     background-color: #9122FF;;
 }
 
+ /*=========== PORTAFOLIO ==============*/
 #portafolio {
     background-color: #FFD233;
 }
 
+.imagenes {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+ /*=========== CLEINTES ==============*/
 #clientes {
     height: 258px;
     background-color: #3F4E62;
